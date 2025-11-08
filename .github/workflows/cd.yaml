@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       image_ref:
-        description: 'Docker image (e.g. username/go-math-api:abc123)'
+        description: 'Docker image (e.g. username/go-fibonacci-api:abc123)'
         required: true
       ec2_host:
         description: 'EC2 public IP or DNS'
